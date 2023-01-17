@@ -16,9 +16,13 @@ class Characters:
         self.level=newLevel
         print(self.level)   
 
-kungfupanda=Characters("Kung Fu Panda", "Skadoosh", "You have been blinded by pure awesomeness!")
-spiderman=Characters("Spiderman", "Your friendly neighbourhood spiderman.", "Kachow!")
+kungfupanda=Characters()
+kungfupanda.Properties("Kung Fu Panda", "Skadoosh", "You have been blinded by pure awesomeness!")
+spiderman=Characters()
+spiderman.Properties("Spiderman", "Your friendly neighbourhood spiderman.", "Kachow!")
 
 kungfupanda.speak(1)
 spiderman.setLevel(2)
 spiderman.speak(2)
+
+input("Press enter to finish.")
